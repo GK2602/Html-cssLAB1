@@ -1,0 +1,48 @@
+body {
+  background: url("366326.jpg");
+}
+
+.regform {
+  width: 500px;
+  margin: 250px auto;
+  padding: 10px 50px 30px;
+  background-color: rgba(0, 0, 0, .3);
+  color: white;
+}
+
+
+.regform h1 {
+  text-align: center;
+  color: black;
+}
+
+.textlabel {
+  display: block;
+}
+
+.input input {
+  width: 100%;
+  font-size: 1.2em;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  padding: 10px 10px;
+  margin: 5px 0px 10px 0px;
+}
+
+.regform .input input:focus {
+  background-color: steelblue;
+}
+
+
+.btn{
+  text-align: center;
+}
+
+.btn button{
+  background-color: violet;
+  color: white;
+  margin-right: 60px;
+  padding: 15px 35px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
